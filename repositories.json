@@ -1,0 +1,36 @@
+create json file with more sub modules and big size repos
+
+{
+    "repositories": [
+        {
+            "repo_url": "https://github.com/python/cpython.git",
+            "branch": "main",
+            "submodules": []
+        },
+        {
+            "repo_url": "https://github.com/django/django.git",
+            "branch": "main",
+            "submodules": []
+        },
+        {
+            "repo_url": "https://github.com/microsoft/vscode.git",
+            "branch": "main",
+            "submodules": [
+                {
+                    "path": "extensions/markdown-language-features",
+                    "branch": "main"
+                }
+            ]
+        },
+        {
+            "repo_url": "https://github.com/apple/swift.git",
+            "branch": "main",
+            "submodules": [
+                {
+                    "path": "stdlib/public/core",
+                    "branch": "main"
+                }
+            ]
+        }
+    ]
+}
